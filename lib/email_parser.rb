@@ -4,9 +4,14 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-  attr_accessor:email 
-  
+ 
   email_addresses = "john@doe.com, person@somewhere.org"
   
+  # we need to split the emial using " , " as delimiter 
   
-  def 
+  def normalize(email_addresses)
+    email_addresses.split(%r{,\s*})
+  end 
+  
+  
+    
