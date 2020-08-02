@@ -12,7 +12,7 @@ class EmailAddressParser
   end
   
   
-  def parser
+  def parse
   email_addresses.split(%r{,\s*})
   end 
   
