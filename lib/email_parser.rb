@@ -9,12 +9,11 @@ class EmailAddressParser
  
   def initialize(email_addresses)
   @email_addresses = email_addresses
-  
   end
-   
+  
   
   def parser
-    email_addresses.split(%r{,\s*})
+  email_addresses.split(%r{,\s*})
   end 
   
 end
