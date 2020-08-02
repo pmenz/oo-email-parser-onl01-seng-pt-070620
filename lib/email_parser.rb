@@ -17,3 +17,5 @@ class EmailAddressParser
     email_addresses.split(%r{,\s*})
   end 
   
+end
+  
