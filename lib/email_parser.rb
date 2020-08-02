@@ -13,7 +13,7 @@ class EmailAddressParser
   end
    
   
-  def normalize(email_addresses)
+  def parser.(email_addresses)
     email_addresses.split(%r{,\s*})
   end 
   
