@@ -13,10 +13,7 @@ class EmailAddressParser
   end
    
   
-  def parser.(email_addresses)
+  def parser
     email_addresses.split(%r{,\s*})
   end 
   
-  emails = EmailAddressParser.new("emails")
-  #=> <# EmailAddressParser @email_addresses = jhjfghkjghsk
-    
